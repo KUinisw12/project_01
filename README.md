@@ -4,7 +4,8 @@
 
 ### 공태영
 - 날짜 : 12/08
-  - Object Detection 모델 1
+  - Object Detection 모델(개인 colab에서 실행)
+  - DB를 받은 후 csv 형식으로 변경하기
 
 ### 박준영
 - 날짜 : 12/08
