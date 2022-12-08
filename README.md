@@ -24,10 +24,11 @@
 ### 정명민
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
+    - "https://github.com/chirag4798/Shop-The-Look" 참조
   - DB 실행
   - To Do
     - 무신사 DB를 이용한 object detection data와 Siamese Network 연결 
-
+    
 ----
 ## 발표 계획
 - 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현
