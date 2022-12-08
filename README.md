@@ -23,12 +23,15 @@
 
 ### 정명민
 - 날짜 : 12/08
-  - Siame 모델 구현 및 DB 구축 
+  - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
+  - DB 실행
+  - To Do
+    - 무신사 DB를 이용한 object detection data와 Siamese Network 연결 
 
 ----
 ## 발표 계획
 - 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현
-- similarity Embedding Vector Space
+- similarity Embedding Vector Space (tensorboard, pandas 등 활용)
 - Hitmap
 - 데이터 그래프
 - 기타 멋져 보이는 것들 조사(논문 참고)
