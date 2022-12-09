@@ -20,7 +20,8 @@
 ### 이석우
 - 날짜 : 12/08 
   - Object Detection 모델 2
-
+- 날짜 : 12/09
+  - db object detection & feature extraction
 ### 정명민
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
