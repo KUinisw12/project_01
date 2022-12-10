@@ -22,7 +22,7 @@
 
 prepare data for siames
 image/anchor/ positive / negative csv
-      (mask) (same goods code) (another goods code)
+      (bbox) (same goods code) (another goods code)
 process 
 
 1. object detection(anchor extraction-EACH DB Category)
@@ -40,7 +40,7 @@ process
 - 날짜 : 12/10
   - data for siames
 image/anchor/ positive / negative csv
-      (mask) (same goods code) (another goods code)
+      (bbox) (same goods code) (another goods code)
 process 
 
 1. object detection(anchor extraction-EACH DB Category)
