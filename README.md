@@ -18,12 +18,39 @@
 - To Do
   - 포토리뷰, 스타일리뷰 EDA(상품별 리뷰이미지 개수, 이미지 특성 등)
   - Positive set 구성, Negative set 구성
+- 날짜: 12/10
+
+prepare data for siames
+image/anchor/ positive / negative csv
+      (mask) (same goods code) (another goods code)
+process 
+
+1. object detection(anchor extraction-EACH DB Category)
+2. make DB goods code/sample url/ review url/ anchor(xmin ymin xmax ymax)
+3. make triplet train set(positive input/ negative input/ anchor input)
+4. embeddings-generation
+5. visualizing for presentation
+6. make website
 
 ### 이석우
 - 날짜 : 12/08 
   - Object Detection 모델 2
 - 날짜 : 12/09
   - db object detection & feature extraction
+- 날짜 : 12/10
+  - data for siames
+image/anchor/ positive / negative csv
+      (mask) (same goods code) (another goods code)
+process 
+
+1. object detection(anchor extraction-EACH DB Category)
+2. make DB goods code/sample url/ review url/ anchor(xmin ymin xmax ymax)
+3. make triplet train set(positive input/ negative input/ anchor input)
+4. embeddings-generation
+5. visualizing for presentation
+6. make website
+
+
 ### 정명민
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
