@@ -13,12 +13,17 @@
     -{상의 : 001, 아우터 : 002, 바지 : 003, 신발 : 005, 모자 : 007, 스니커즈 : 018, 원피스 : 020, 스커트 : 022} 
 - 날짜 : 12/09
   - 크롤링, DB 완료, EDA 미완료
+- 날짜 : 12/10
+  - 수집DB EDA, 그래프 만드는 중.
+  - Object Detection 샘플이미지에 대해서 잘 안 되는 것 확인. 전략 수정 필요.
+  - Siamese network 학습 중(OD 필요없는 샘플이미지와 포토리뷰이미지에 대해.)
 - 참고자료
   - Similarity https://89douner.tistory.com/334
 - To Do
   - 포토리뷰, 스타일리뷰 EDA(상품별 리뷰이미지 개수, 이미지 특성 등)
-  - Positive set 구성, Negative set 구성
-- 날짜: 12/10
+  - Positive set 구성, Negative set 구성(코드 만들었음)
+  - DB 수정(카테고리) OD결과 집어 넣을 수 있도록 DB 확장
+  - 발표자료에 들어갈 도표, 이미지비준비
 
 prepare data for siames
 image/anchor/ positive / negative csv
