@@ -19,6 +19,7 @@
   - Siamese network 학습 중(OD 필요없는 샘플이미지와 포토리뷰이미지에 대해.)
 - 참고자료
   - Similarity https://89douner.tistory.com/334
+  - https://simonezz.tistory.com/43
 - To Do
   - 포토리뷰, 스타일리뷰 EDA(상품별 리뷰이미지 개수, 이미지 특성 등)
   - Positive set 구성, Negative set 구성(코드 만들었음)
