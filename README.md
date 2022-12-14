@@ -21,6 +21,7 @@
   - Similarity https://89douner.tistory.com/334
   - https://simonezz.tistory.com/43
   - tensorboard Embedding Projector https://towardsdatascience.com/taking-the-tensorboard-embedding-projector-to-the-next-level-bde53deb6bb7
+  - https://towardsdatascience.com/triplet-loss-advanced-intro-49a07b7d8905
 - To Do
   - 포토리뷰, 스타일리뷰 EDA(상품별 리뷰이미지 개수, 이미지 특성 등)
   - Positive set 구성, Negative set 구성(코드 만들었음)
