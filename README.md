@@ -1,11 +1,13 @@
-# 12SW **Style Danawa** 
+# 12조 STYLE Research Team **AI STYLE RECOMMENDATION** 
 ----
 ## 프로젝트 진행상황 Log 
 
 ### 공태영
-- 날짜 : 12/08
+  
   - Object Detection 모델(개인 colab에서 실행)
   - DB를 받은 후 csv 형식으로 변경하기
+  - Object Detection(Yolo v7/ Yolo v5) 진행 및 Fine Tuning - Modanet dataset, 자체 어노테이션 Test data set 활용
+  - 웹 제작(그래프 활용/디자인 개선 필요 및 진행중/ 구동 및 디자인)
 
 ### 박준영
 - 날짜 : 12/08
@@ -39,37 +41,37 @@ process
 4. embeddings-generation
 5. visualizing for presentation
 6. make website
+- 웹에 들어갈 그래프 EDA 준비
 
 ### 이석우
 - 날짜 : 12/08 
   - Object Detection 모델 2
 - 날짜 : 12/09
-  - db object detection & feature extraction
+  - db object detection(detectron2- faster/mask rcnn/yolo5) & feature extraction
 - 날짜 : 12/10
   - data for siames
 image/anchor/ positive / negative csv
       (bbox) (same goods code) (another goods code)
 process 
-
 1. object detection(anchor extraction-EACH DB Category)
 2. make DB goods code/sample url/ review url/ anchor(xmin ymin xmax ymax)
 3. make triplet train set(positive input/ negative input/ anchor input)
 4. embeddings-generation
 5. visualizing for presentation
 6. make website
-
+- 추가 > 옷 입히기 프로세스 추가(상품 사진을 자신의 체형 이미지에 입혀보기)/ - 다양한 모델 실험 필요 / 향후 진행 예정
+- 웹사이트 제작(그래프 활용/ 디자인 개선 필요 및 진행중/ 구동 및 디자인)
 
 ### 정명민
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
-    - "https://github.com/chirag4798/Shop-The-Look" 참조
   - DB 실행
   - To Do
-    - 무신사 DB를 이용한 object detection data와 Siamese Network 연결 
-    
+  - 무신사 DB를 이용한 object detection data와 Siamese Network 연결 
+  - 코드 정리 및 프로젝트 정리 진행(ppt & design)
 ----
 ## 발표 계획
-- 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현
+- 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현(향후 추천된 옷을 자신의 체형과 비슷한 이미지에 입혀보는 프로세스까지 구현 예정) 
 - similarity Embedding Vector Space (tensorboard, pandas 등 활용)
 - Hitmap
 - 데이터 그래프
@@ -80,9 +82,10 @@ process
 - 12.11까지 스타일 다나와 모델 구현 완료
 - 12.12~12.16까지 UI구성
 - 12.12~12.16까지 PPT구성
-
+- 12.19 발표자료 제출
+- 12.21 총 발표
 ---
-## OD 범위
+## OD 범위 
 상의 
 반소매(001001)/맨투맨(001005) /민소매(001011)
 
@@ -95,3 +98,4 @@ process
 
 신발
 샌들(005004) 부츠(005011) 캔버스단화(018002)
+
