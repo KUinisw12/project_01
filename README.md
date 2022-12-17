@@ -12,7 +12,7 @@
   - 예정
     - WEB 제작(그래프 활용/디자인 개선 진행중/ 구동 및 디자인)
       - Yolov7 학습 weight을 가져와 onnx파일로 변환 뒤 streamlit을 통해 웹사이트에서 object detection 모델 구현 시도 
-      - Siamese network 결과를 가져와서 상의, 아우터, 하의, 신발 카테고리별(col1,col2,col3,.. 형식) 유사한 상품 이미지(해당 상품 이미지에 link을 embedding)를 제안하는 웹사이트 
+      - Siamese network 결과를 가져와서 상의, 아우터, 하의, 신발 카테고리별(col1,col2,col3,.. 형식) 유사한 상품 이미지(해당 상품 이미지에 link을 embedding)를 제안하는 웹사이트 구현
 
 ### 박준영
 - 날짜 : 12/08
