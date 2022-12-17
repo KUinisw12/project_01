@@ -7,7 +7,7 @@
   - Object Detection 모델(개인 colab에서 실행)
   - DB를 받은 후 csv 형식으로 변경하기
   - Object Detection(Yolo v7/ Yolo v5) 진행 및 Fine Tuning - Modanet dataset, 자체 어노테이션 Test data set 활용
-  - 웹 제작(그래프 활용/디자인 개선 필요 및 진행중/ 구동 및 디자인)
+  - WEB 제작(그래프 활용/디자인 개선 진행중/ 구동 및 디자인)
 
 ### 박준영
 - 날짜 : 12/08
@@ -32,7 +32,6 @@
 
 prepare data for siames
 image/anchor/ positive / negative csv
-      (bbox) (same goods code) (another goods code)
 process 
 
 1. object detection(anchor extraction-EACH DB Category)
@@ -51,7 +50,6 @@ process
 - 날짜 : 12/10
   - data for siames
 image/anchor/ positive / negative csv
-      (bbox) (same goods code) (another goods code)
 process 
 1. object detection(anchor extraction-EACH DB Category)
 2. make DB goods code/sample url/ review url/ anchor(xmin ymin xmax ymax)
@@ -60,9 +58,9 @@ process
 5. visualizing for presentation
 6. make website
 - 추가 > 옷 입히기 프로세스 추가(상품 사진을 자신의 체형 이미지에 입혀보기)/ - 다양한 모델 실험 필요 / 향후 진행 예정
-- 웹사이트 제작(그래프 활용/ 디자인 개선 필요 및 진행중/ 구동 및 디자인)
-- 깃 정리
-- 
+- WEB 제작(그래프 활용/ 디자인 개선 진행중/ 구동 및 디자인)
+- GIT 정리
+
 ### 정명민
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
@@ -81,9 +79,9 @@ process
 
 ---
 ## 진행 계획
-- 12.11까지 스타일 다나와 모델 구현 완료
-- 12.12~12.16까지 UI구성
-- 12.12~12.16까지 PPT구성
+- 12.11까지 AI STYLE RECOMMENDATION 모델 구현 완료
+- 12.12~12.17까지 UI구성
+- 12.12~12.17까지 PPT구성
 - 12.19 발표자료 제출
 - 12.21 총 발표
 ---
