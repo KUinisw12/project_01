@@ -46,7 +46,7 @@ process
 - 날짜 : 12/08 
   - Object Detection 모델 2
 - 날짜 : 12/09
-  - db object detection(detectron2- faster/mask rcnn/yolo5) & feature extraction
+  - db object detection(detectron2- faster/mask rcnn/yolo5 / fine tuning) & feature extraction
 - 날짜 : 12/10
   - data for siames
 image/anchor/ positive / negative csv
@@ -57,7 +57,7 @@ process
 4. embeddings-generation
 5. visualizing for presentation
 6. make website
-- 추가 > 옷 입히기 프로세스 추가(상품 사진을 자신의 체형 이미지에 입혀보기)/ - 다양한 모델 실험 필요 / 향후 진행 예정
+- 옷 입히기 프로세스 추가(상품 사진을 자신의 체형 이미지에 입혀보기)/ - 다양한 모델 실험 필요 / 향후 진행 예정
 - WEB 제작(그래프 활용/ 디자인 개선 진행중/ 구동 및 디자인)
 - GIT 정리
 
