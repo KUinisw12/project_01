@@ -50,11 +50,9 @@ process
 - 웹에 들어갈 그래프 EDA 준비
 
 ### 이석우
-- 날짜 : 12/08 
+
   - Object Detection 모델 2
-- 날짜 : 12/09
   - db object detection(detectron2- faster/mask rcnn/yolo5 / fine tuning) & feature extraction
-- 날짜 : 12/10
   - data for siames
 image/anchor/ positive / negative csv
 process 
