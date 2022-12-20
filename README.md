@@ -67,6 +67,7 @@ process
 - GIT 정리
 
 ### 정명민
+- PPT 제작 및 전체 진행 총괄
 - 날짜 : 12/08
   - Siamese Network pipeline 실행(데스크탑 PC에서 실행)
   - DB 실행
@@ -74,6 +75,9 @@ process
   - 무신사 DB를 이용한 object detection data와 Siamese Network 연결 
   - 코드 정리 및 PPT 정리 진행(ppt & design)
   - 발표 계획 및 전략 수립
+- 날짜 : 12/09
+  - Siamese Network 전체적인 flow 따라서 파이썬 파일 진행
+  - 다른 파트(Object Detection, Siamese Network, MobileNetv2 통한 DB 작성하는 부분) flow up
 ----
 ## 발표 계획
 - 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현(향후 추천된 옷을 자신의 체형과 비슷한 이미지에 입혀보는 프로세스까지 구현 예정) 
