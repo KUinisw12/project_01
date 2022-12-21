@@ -22,8 +22,6 @@ st.sidebar.caption("Buy the style you want.")
 st.sidebar.markdown("Made by Style Research Team")
 st.sidebar.markdown("---")
 
-# 여기서는 column의 형식으로 
-
 st.sidebar.header("Our DB")
 st.sidebar.image("https://media.giphy.com/media/l8DnhngGazFTPhNLK6/giphy.gif",width=300)
 st.sidebar.markdown('---')
@@ -52,9 +50,9 @@ if uploaded_image is not None:
       
       df1 = pd.DataFrame(detect) 
   
-      # st.dataframe(df1, 800, 150)
+      
 
-      # 샴 모델 불러오기 
+      
       
       if detect['class_id'] is not None:
               set_1 = set(detect['class_id'])
@@ -72,7 +70,7 @@ if uploaded_image is not None:
                   Midclass = load_model("models/Midcateg_" + i + "_1216.h5", compile=False)
                   df = pd.read_csv("DB/df_styleReview_" + i + "_sim_matrix.csv", dtype=object)
               
-                  # 관련된 미리 학습된 siamse df을 불러와 준다. 
+                  
                   
                   tqdm.pandas()
                   xmin = df1.loc[df1['class_id'] == i,'xmin'].values[0]
@@ -84,15 +82,15 @@ if uploaded_image is not None:
                   cv2.imwrite('image/croppedImage' + i + '.PNG',crop_img)
                   query_dir = 'image/croppedImage' + i + '.PNG' 
                   query = query_dir
-                  # csv 파일을 통해 해주자. 
+                  
                   query_image = preprocess_image(query)
-                  # 크롭된 이미지를 넣어주어서 불러온다. 
+                  
                   query_embedding_ = Midclass(query_image)[0].numpy().astype(np.float32).tolist()
                   query_embedding_ = str(query_embedding_)
 
                   df['distance_samImg_queryRev'] = df['embedding_sample'].progress_apply(lambda x: np.linalg.norm(np.asarray(eval(x), dtype=np.float32) - np.asarray(eval(query_embedding_), dtype=np.float32)))
                   df_sim_matrix = df.sort_values(by='distance_samImg_queryRev').reset_index(drop=True)
-                  # 이밑은 image로 해준다. print은 write로 바꿔준다.
+                  
                   
                   image_ = io.imread(query)
                   image_resized = resize(image_, (200, 200))
@@ -146,7 +144,7 @@ if uploaded_image is not None:
                   Midclass = load_model("models/Midcateg_" + i + "_1216.h5", compile=False)
                   df = pd.read_csv("DB/df_styleReview_" + i + "_sim_matrix.csv", dtype=object)
               
-                  # 관련된 미리 학습된 siamse df을 불러와 준다. 
+                   
                   
                   tqdm.pandas()
                   xmin = df1.loc[df1['class_id'] == i,'xmin'].values[0]
@@ -158,15 +156,15 @@ if uploaded_image is not None:
                   cv2.imwrite('image/croppedImage' + i + '.PNG',crop_img)
                   query_dir = 'image/croppedImage' + i + '.PNG' 
                   query = query_dir
-                  # csv 파일을 통해 해주자. 
+                  
                   query_image = preprocess_image(query)
-                  # 크롭된 이미지를 넣어주어서 불러온다. 
+                  
                   query_embedding_ = Midclass(query_image)[0].numpy().astype(np.float32).tolist()
                   query_embedding_ = str(query_embedding_)
 
                   df['distance_samImg_queryRev'] = df['embedding_sample'].progress_apply(lambda x: np.linalg.norm(np.asarray(eval(x), dtype=np.float32) - np.asarray(eval(query_embedding_), dtype=np.float32)))
                   df_sim_matrix = df.sort_values(by='distance_samImg_queryRev').reset_index(drop=True)
-                  # 이밑은 image로 해준다. print은 write로 바꿔준다.
+                  
                   
                   image_ = io.imread(query)
                   image_resized = resize(image_, (200, 200))
@@ -222,7 +220,7 @@ if uploaded_image is not None:
                   Midclass = load_model("models/Midcateg_" + i + "_1216.h5", compile=False)
                   df = pd.read_csv("DB/df_styleReview_" + i + "_sim_matrix.csv", dtype=object)
               
-                  # 관련된 미리 학습된 siamse df을 불러와 준다. 
+                  
                   
                   tqdm.pandas()
                   xmin = df1.loc[df1['class_id'] == i,'xmin'].values[0]
@@ -235,13 +233,13 @@ if uploaded_image is not None:
                   query_dir = 'image/croppedImage' + i + '.PNG' 
                   query = query_dir
                   query_image = preprocess_image(query)
-                  # 크롭된 이미지를 넣어주어서 불러온다. 
+                  
                   query_embedding_ = Midclass(query_image)[0].numpy().astype(np.float32).tolist()
                   query_embedding_ = str(query_embedding_)
 
                   df['distance_samImg_queryRev'] = df['embedding_sample'].progress_apply(lambda x: np.linalg.norm(np.asarray(eval(x), dtype=np.float32) - np.asarray(eval(query_embedding_), dtype=np.float32)))
                   df_sim_matrix = df.sort_values(by='distance_samImg_queryRev').reset_index(drop=True)
-                  # 이밑은 image로 해준다. print은 write로 바꿔준다.
+                  
                   
                   image_ = io.imread(query)
                   image_resized = resize(image_, (200, 200))
@@ -297,7 +295,7 @@ if uploaded_image is not None:
                   Midclass = load_model("models/Midcateg_" + i + "_1216.h5", compile=False)
                   df = pd.read_csv("DB/df_styleReview_" + i + "_sim_matrix.csv", dtype=object)
               
-                  # 관련된 미리 학습된 siamse df을 불러와 준다. 
+                  
                   
                   tqdm.pandas()
                   xmin = df1.loc[df1['class_id'] == i,'xmin'].values[0]
@@ -309,15 +307,15 @@ if uploaded_image is not None:
                   cv2.imwrite('image/croppedImage' + i + '.PNG',crop_img)
                   query_dir = 'image/croppedImage' + i + '.PNG' 
                   query = query_dir
-                  # 여기에 크롭된 이미지를 넣어주어야 한다. -> 추후 수정예정  
+                   
                   query_image = preprocess_image(query)
-                  # 크롭된 이미지를 넣어주어서 불러온다. 
+                  
                   query_embedding_ = Midclass(query_image)[0].numpy().astype(np.float32).tolist()
                   query_embedding_ = str(query_embedding_)
 
                   df['distance_samImg_queryRev'] = df['embedding_sample'].progress_apply(lambda x: np.linalg.norm(np.asarray(eval(x), dtype=np.float32) - np.asarray(eval(query_embedding_), dtype=np.float32)))
                   df_sim_matrix = df.sort_values(by='distance_samImg_queryRev').reset_index(drop=True)
-                  # 이밑은 image로 해준다. print은 write로 바꿔준다.
+                  
                   
                   image_ = io.imread(query)
                   image_resized = resize(image_, (200, 200))
