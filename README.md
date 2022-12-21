@@ -15,7 +15,7 @@
       - Siamese network 결과를 가져와서 상의, 아우터, 하의, 신발 카테고리별(col1,col2,col3,.. 형식) 유사한 상품 이미지(해당 상품 이미지에 link을 embedding)를 제안하는 웹사이트 구현
 
 **MODELS** 받을 수 있는 주소 
-   [drive link](~~)
+   [drive link](https://drive.google.com/file/d/19yuG4zq2mTh5iABGEXiQ5ep4EfnTr_jI/view?usp=sharing)
    
 
 ### 박준영
