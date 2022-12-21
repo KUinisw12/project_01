@@ -5,16 +5,18 @@
 ### 공태영
   - **완료**
     - Object Detection 모델(개인 colab에서 실행)
-    - DB를 받은 후 csv 형식으로 변경하기
-  - **진행중** 
+    - DB를 받은 후 csv 형식으로 변경하기 
     - Object Detection 학습 
       - Object Detection(Yolo v7/ Yolo v5) 진행 및 Fine Tuning - Modanet dataset, 자체 어노테이션 Test data set 활용
     - WEB 제작(그래프 활용/디자인 개선 진행중/ 구동 및 디자인)
       - Yolov7 학습 weight을 가져와 onnx파일로 변환 뒤 streamlit을 통해 웹사이트에서 object detection 모델 구현 시도 
         - 현재 sample 학습 weight로는 구현 성공 
-  - **예정**
     - WEB 제작(그래프 활용/디자인 개선 진행중/ 구동 및 디자인)
       - Siamese network 결과를 가져와서 상의, 아우터, 하의, 신발 카테고리별(col1,col2,col3,.. 형식) 유사한 상품 이미지(해당 상품 이미지에 link을 embedding)를 제안하는 웹사이트 구현
+
+**MODELS** 받을 수 있는 주소 
+   [drive link](~~)
+   
 
 ### 박준영
 - 날짜 : 12/08
