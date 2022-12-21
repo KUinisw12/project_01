@@ -13,8 +13,10 @@
         - 현재 sample 학습 weight로는 구현 성공 
     - WEB 제작(그래프 활용/디자인 개선 진행중/ 구동 및 디자인)
       - Siamese network 결과를 가져와서 상의, 아우터, 하의, 신발 카테고리별(col1,col2,col3,.. 형식) 유사한 상품 이미지(해당 상품 이미지에 link을 embedding)를 제안하는 웹사이트 구현
-   **MODELS** 받을 수 있는 주소 
-   drive[link](~~)
+
+**MODELS** 받을 수 있는 주소 
+   [drive link](~~)
+   
 
 ### 박준영
 - 날짜 : 12/08
