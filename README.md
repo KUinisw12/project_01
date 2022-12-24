@@ -78,13 +78,19 @@ process
   - 코드 정리 및 PPT 정리 진행(ppt & design)
   - 발표 계획 및 전략 수립
 - 날짜 : 12/09
-  - Siamese Network 전체적인 flow 따라서 파이썬 파일 진행
-  - 다른 파트(Object Detection, Siamese Network, MobileNetv2 통한 DB 작성하는 부분) flow up
+  - Siamese Network prototype 진행
+  - Object Detection model 학습시키고 loss, accuracy 및 결과 확인 
+- 날짜 : 12/10
+  - Siamese Network 학습을 위해 Crawling한 쇼핑몰 DB 양식 재 구성 일부 진행
+  - Siamese Network 추가 학습 진행 및 학습된 모델 사용하여 결과 확인
+- 날짜 : 12/11
+  - PPT 구성 및 작성
+    - Flow : 쇼핑몰 DB 크롤링 -> 리뷰 의류 Object Detection -> SiameseNetwork, triplet loss 이용 입은 상품 추천 -> virtual fitting 일부 구현 
 ----
 ## 발표 계획
 - 파일 업로드, 유사 샘플 찾아주는 웹페이지 구현(향후 추천된 옷을 자신의 체형과 비슷한 이미지에 입혀보는 프로세스까지 구현 예정) 
 - similarity Embedding Vector Space (tensorboard, pandas 등 활용)
-- Hitmap
+- Heatmap
 - 데이터 그래프
 - 기타 멋져 보이는 것들 조사(논문 참고)
 
@@ -92,8 +98,8 @@ process
 ## 진행 계획
 - 12.11까지 AI STYLE RECOMMENDATION 모델 구현 완료
 - 12.12~12.17까지 UI구성
-- 12.12~12.17까지 PPT구성
-- 12.19 발표자료 제출
+- 12.11~12.17까지 PPT구성
+- 12.19 발표자료 녹화 및 제출
 - 12.21 총 발표
 ---
 ## OD 범위 
